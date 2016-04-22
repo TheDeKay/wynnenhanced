@@ -24,3 +24,4 @@
             <INPUT TYPE = "Submit" Name = "Check" VALUE = "Check Server">
         </FORM>
     </body>
+</html>
