@@ -1,25 +1,9 @@
 <html>
     <head>
         <title>TS3 Crack Checker</title>
-        <?php
-            $IPE = $_GET['IPE'];
-            $connection = @fsockopen($IPE, "2008");
-        
-            if (is_resource($connection))
-            {
-                print("This server may be cracked.");
-        
-                fclose($connection);
-            }
-        
-            else
-            {
-                print("Crack not detected.");
-            }
-        ?>
     </head>
     <body>
-        <FORM NAME ="CheckForm" METHOD ="GET" ACTION = "index.html">
+        <FORM NAME ="CheckForm" METHOD ="GET" ACTION = "Tcrack.php">
             <INPUT TYPE = "Text" NAME = "IPE" VALUE ="IP Address">
             <INPUT TYPE = "Submit" Name = "Check" VALUE = "Check Server">
         </FORM>
