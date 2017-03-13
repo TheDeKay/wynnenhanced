@@ -1,2 +1,6 @@
+# Bytecode Patches for Wynncraft Enhanced
 
-# http://LS4WT.github.io
+Including:
+- No Curse Requirement
+- No CustomMainMenu Requirement
+- Server-IP Patch. (To fix those annoying "sub-ips")
